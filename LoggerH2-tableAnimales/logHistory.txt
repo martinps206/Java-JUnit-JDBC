@@ -1,0 +1,22 @@
+INFO    2022-05-27 23:04:15,790 [main] com.digitalhouse.Main  - Se ejecutaron todos los inserts
+INFO    2022-05-27 23:05:00,455 [main] com.digitalhouse.Main  - Se ejecutaron todos los inserts
+ERROR   2022-05-27 23:05:18,196 [main] com.digitalhouse.Main  - Hubo un problema al conectar a la BD
+org.h2.jdbc.JdbcSQLInvalidAuthorizationSpecException: Wrong user name or password [28000-210]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:529)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:496)
+	at org.h2.message.DbException.get(DbException.java:227)
+	at org.h2.message.DbException.get(DbException.java:203)
+	at org.h2.message.DbException.get(DbException.java:192)
+	at org.h2.engine.Engine.validateUserAndPassword(Engine.java:393)
+	at org.h2.engine.Engine.createSession(Engine.java:206)
+	at org.h2.engine.SessionRemote.connectEmbeddedOrServer(SessionRemote.java:338)
+	at org.h2.jdbc.JdbcConnection.<init>(JdbcConnection.java:122)
+	at org.h2.Driver.connect(Driver.java:59)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:228)
+	at com.digitalhouse.Main.getConnection(Main.java:79)
+	at com.digitalhouse.Main.main(Main.java:35)
+INFO    2022-05-27 23:07:41,842 [main] com.digitalhouse.Main  - Se ejecutaron todos los inserts
+INFO    2022-10-27 18:46:54,405 [main] com.digitalhouse.Main  - Se ejecutaron todos los inserts
+INFO    2022-10-27 18:59:35,506 [main] com.digitalhouse.Main  - Se ejecutaron todos los inserts
+INFO    2022-10-29 21:17:14,863 [main] class com.digitalhouse.Main  - Se ejecutaron todos los inserts
